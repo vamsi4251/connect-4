@@ -1,0 +1,84 @@
+body{
+    background-color: cornflowerblue;
+}
+.panel{
+    position: absolute;
+    background-color: lightgoldenrodyellow;
+    border: 8px solid burlywood;
+    z-index: 1;
+}
+
+.header{
+    left: 50%;
+    top: 90px;
+    height: 80px;
+    width: 300px;
+    margin-left: -130px;
+}
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.fotter{
+    left: 50%;
+    top: 700px;
+    height: 80px;
+    width: 300px;
+    margin-left: -130px;
+    
+}
+.fotter button{
+    position: relative;
+    left: 50%;
+    top: 20%;
+    margin-left: -125px;
+    width: 250px;
+    height: 50px;
+    background-color: lightblue;
+    font-size: 30px;
+    border: 5px solid chocolate;
+    font-weight: bold;
+}
+.fotter button:hover{
+    background-color: chocolate;
+}
+.gameBoard{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    padding:20px;
+    width:500px;
+    position:absolute;
+    left:50%;
+    margin-left:-250px;
+    top:20%;
+    background-color: bisque;
+    border: 10px solid burlywood;
+    border-radius: 10%;
+
+}
+
+.gameCircle{
+    width:90px;
+    height:90px;
+    margin:10px;
+    border-radius:50%;
+    border: 5px solid black;
+}
+
+.player_0{
+    background-color: white;
+}
+.player_1{
+    background-color: red;
+}
+.player_2{
+    background-color: blue;
+}
